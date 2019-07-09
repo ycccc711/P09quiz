@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         alFormula.add(b);
         alFormula.add(c);
 
-        //arrayadapter
+        //array adapter
         FormulaAdapter adapter = new FormulaAdapter(MainActivity.this,R.layout.row,alFormula);
         lv.setAdapter(adapter);
 
